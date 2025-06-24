@@ -1,7 +1,7 @@
-## Sleep Health SQL Analysis
+# Sleep Health SQL Analysis
 This project explores patterns and insights in a sleep health dataset using MySQL.
 
-# Description of data
+## Description of data
 The data consists of synthetic data created by a user on Kaggle.
 
 Details about disorder columns:
@@ -31,13 +31,13 @@ Details about sleep duration category
 - Long Sleep Duration : Sleep Duration > 8 
 
 
-# Tools
+## Tools
 MySQL for data querying and analysis.
 
-# Cleaning Process
+## Cleaning Process
 The BMI column contained inconsistent labels such as “Normal” and “Normal weight” which were standardised to “Normal” for consistency.
 
-# Insights
+## Insights
 1. *Stress levels by occupation and impact on quality of sleep.*
 	- Calculates average quality of sleep and stress level for each occupation.
 	- Calculates the disorder rate for each occupation by the total individuals that suffers from sleep disorders by occupation.
